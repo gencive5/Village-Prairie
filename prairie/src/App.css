@@ -131,9 +131,10 @@
 }
 
 .text {
-  font-family: 'perfect dos vga 437';
+  font-family: 'Sword_Regular';
   font-size: 28px;
   color: white;
+  
 }
 
 /* Placeholder Styles */
@@ -147,7 +148,7 @@
 }
 
 .paused-video-placeholder.night {
-  background-color: black;
+  background-color: #272752;
 }
 
 .video-container.hidden {

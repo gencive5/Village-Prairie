@@ -93,7 +93,7 @@ const VideoFeed: React.FC<VideoFeedProps> = ({ src }) => {
       {showPlaceholder ? (
         <>
           <div className={`paused-video-placeholder ${isNight ? "night" : ""}`} />
-          <h1 className="title">Space</h1>
+          <h1 className="title">PLAY</h1>
           <img src={redCar} alt="Tomate" className="tomate-image" />
         </>
       ) : (
@@ -111,7 +111,7 @@ const VideoFeed: React.FC<VideoFeedProps> = ({ src }) => {
         </video>
       </div>
       <div className={`text-container ${isPlaying ? "paused" : ""}`}>
-        <p className="text">[ SPACE TO PLAY AND PAUSE ]</p>
+        <p className="text">PLAY</p>
       </div>
     </>
   );
