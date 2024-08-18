@@ -217,3 +217,14 @@ html, body {
   transform: translateX(-50%);
   z-index: 1;
 }
+
+
+.time-display {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-family: 'perfect dos vga 437', monospace;
+  font-size: 24px;
+  color: white; /* Adjust color based on the background */
+  z-index: 10001; /* Ensure it appears above the video */
+}

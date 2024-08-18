@@ -4,6 +4,7 @@ import './App.css';
 import VideoFeed from './VideoFeed';
 import { Box } from "@mui/system";
 import DelayedTime from './DelayedTime'; 
+import TimeDisplay from './TimeDisplay';
 
 function App() {
   const currentTime = new Date();
@@ -18,6 +19,7 @@ function App() {
       <Box sx={{ flex: 1, position: "relative" }}>
         <VideoFeed src="http://localhost:8083/stream/pattern/channel/0/hls/live/index.m3u8" />
       </Box>
+      <TimeDisplay />
     </Box>
     </div>
   );
