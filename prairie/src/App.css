@@ -107,9 +107,14 @@ html, body {
   src: url('/src/perfect dos vga 437.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'led dot matrix';
+  src: url('/src/led-dot-matrix.woff2') format('woff2');
+}
+
 /* Time Font Styles */
 .time-font {
-  font-family: 'perfect dos vga 437';
+  font-family: 'led dot matrix';
   position: absolute;
   bottom: 5%;
   left: 50%;
@@ -210,20 +215,13 @@ html, body {
   position: relative;
 }
 
-.delayed-time {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-}
 
 
 .time-display {
   position: fixed;
-  bottom: 10px;
-  left: 10px;
-  font-family: 'perfect dos vga 437', monospace;
+  bottom: 15px;
+  right: 15px;
+  font-family: 'led dot matrix', monospace;
   font-size: 24px;
   color: white; /* Adjust color based on the background */
   z-index: 10001; /* Ensure it appears above the video */
