@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './DelayedTime.css';
 
 const DelayedTime: React.FC = () => {
   const [time, setTime] = useState<string>('');

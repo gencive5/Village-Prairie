@@ -1,9 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+
 /* Base Styles */
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+ 
 }
 
 /* Logo Styles */
@@ -134,7 +144,7 @@
   font-family: 'Sword_Regular';
   font-size: 28px;
   color: white;
-  
+
 }
 
 /* Placeholder Styles */
@@ -182,4 +192,28 @@
   .tomate-image {
     width: 40px; /* Further adjust for very small screens */
   }
+}
+
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: var(--background-color);
+}
+
+.video-feed-wrapper {
+  flex: 1;
+  position: relative;
+}
+
+.delayed-time {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
 }

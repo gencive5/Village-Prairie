@@ -1,0 +1,18 @@
+.delayed-time-container {
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 30;
+  }
+  
+  .time-font {
+    font-family: 'perfect dos vga 437';
+    color: black; /* Default color */
+  }
+  
+  .time-font.night {
+    color: white; /* Nighttime color */
+  }
+  
