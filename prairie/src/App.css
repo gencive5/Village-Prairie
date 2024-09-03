@@ -222,7 +222,7 @@ html, body {
   bottom: 15px;
   right: 15px;
   font-family: 'led dot matrix', monospace;
-  font-size: 24px;
+  font-size: 30px;
   color: white; /* Adjust color based on the background */
   z-index: 10001; /* Ensure it appears above the video */
 }
