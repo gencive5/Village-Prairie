@@ -19,9 +19,10 @@ services:
   rtsp-to-web:
     image: ghcr.io/deepch/rtsptoweb:latest
     volumes:
-      - ./tsconfig.json:/config/tsconfig.json:ro  # Added read-only flag for safety
+      - ./tsconfig.json:/config/tsconfig.json:ro
     ports:
       - '8083:8083'
+      - '5541:5541' 
     container_name: rtsp-to-web
     networks:
       - reseau_virtuel_pour_maggie
